@@ -71,22 +71,30 @@ body {
 
 // sign_up
 .sinupPage {
-  margin-top: 10vh;
+  background-color: #363E4A;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.5;
+  height: 100vh;
+  width: 100vw;
   .titleArea {
+    padding-top: 10vh;
     text-align: center;
     h1 {font-size: 2rem;}
+    font-family: arial unicode ms;
   }
   .signupForm {
     .form-group {
       margin: 0 auto 1.5rem auto;
       max-width: 500px;
+      font-family: arial unicode ms;
       .form-control {
         background: #f6f8fa;
       }
     }
   }
   .submitBtn {
-    background: #29b744;
+    background: #0075c1;
     color: #fff;
     width: 200px;
     margin-top: 20px;
@@ -108,11 +116,26 @@ body {
 
 // sign_in
 .signinPage {
-  margin-top: 10vh;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  padding: 60px 60px;
+  background: url(https://picsum.photos/id/1004/5616/3744) no-repeat   center center #505050;   
+  background-size: cover;
+  box-shadow: 0px 30px 60px -5px #000;
+  .container{
+    margin-top: 100px;
+    .text-center {
+      font-family: arial unicode ms;
+    }
+  }
   .title {
-    margin: 0;
+    margin-bottom: 30px;
     text-align: center;
-    font-family: fantasy;
+    font-family: cursive;
+    color: white;
+    font-size: 100px;
   }
   .new_user {
     .form-group {
@@ -120,6 +143,7 @@ body {
       margin: 0 auto 1rem;
       .form-control {
         background: #f6f8fa;
+        font-family: arial unicode ms;
       }
     }
   }
@@ -127,13 +151,14 @@ body {
     padding: 12px;
     width: 200px;
     border-radius: 21px;
-    background: #29b744;
+    background: #0075c1;
     color: #fff;
     text-align: center;
     border: none;
     margin-top: 20px;
     opacity: 1;
     transition: opacity .5s;
+    font-family: cursive;
     cursor: pointer;
     &:hover {
       opacity: .7;
