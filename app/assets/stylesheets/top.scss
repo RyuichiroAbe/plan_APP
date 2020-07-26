@@ -1,7 +1,7 @@
 .topPage {
   min-height: 93vh;
   padding-top: 30px;
-  background: #bababa;
+  background: #2d2d2d;
   overflow-x: scroll;
   .listWrapper {
     display: flex;
@@ -24,6 +24,7 @@
         &_title {
           font-size: 20px;
           margin: 0;
+          font-family: arial unicode ms;
         }
         &_action {
           .fa-pen, .fa-trash {

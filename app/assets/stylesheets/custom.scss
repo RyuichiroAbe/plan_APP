@@ -9,7 +9,7 @@ body {
 
 // header
 .header {
-  background: #0075c1;
+  background: #fff;
   padding: 10px;
   .nav {
     .header_menu {
@@ -22,9 +22,10 @@ body {
       align-items: center;
       li {
         list-style: none;
-        color: #fff;
+        color: #000000;
+        font-family: arial unicode ms;
         a {
-          color: #fff;
+          color: #000000;
           font-family: fantasy;
         }
       }
