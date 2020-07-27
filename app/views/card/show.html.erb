@@ -1,6 +1,10 @@
 <div class='carddetailPage'>
   <div class="container">
     <div class="cardContents">
+      <div class="cardContents_date">
+        <div>日時</div>
+        <h2><%= @card.created_at %></h2>
+      </div>
       <div class="cardContents_title">
         <div>タイトル</div>
         <h2><%= @card.title %></h2>
